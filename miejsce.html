@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projekt techniki internetowe</title>
+ 
+    <!-- Bootstrap -->
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+       <link href="css/bootstrap.min.css" rel="stylesheet">
+   	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Grupowanie elementów menu w celu lepszego wyświetlania na urządzeniach moblinych -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Strona Główna</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="miejsce.html">Geolokacja</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+ 
+
+
+
+
+
+ <h1><br>Mapka:</h1>
+<div id="map" class="map" style="height: 400px">
+
+	<script>
+	// create a map in the "map" div, set the view to a given place and zoom
+	var map = L.map('map').setView([54.3959882, 18.5731924], 15);
+
+
+	// add an OpenStreetMap tile layer
+	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+	// add a marker in the given location, attach some popup content to it and open the popup
+	L.marker([54.3959882, 18.5731924]).addTo(map)
+    .bindPopup('Uniwersytet wydział MFI')
+    .openPopup();
+	</script>
+    <hr>
+   </body>
+  
+   </head>
+   </html>
+
+
+
+
+
+
+
+ 
