@@ -14,6 +14,12 @@
     "tests"
   ],
   "dependencies": {
-    "nb-menu": "sup3rb0wlz/nb-menu#master"
+    "nb-menu": "sup3rb0wlz/nb-menu#master",
+    "favicon-bubble": "~0.0.3",
+    "basic-calendar-month": "basic-web-components/basic-calendar-month#master"
+  },
+  "resolutions": {
+    "core-component-page": "^0.5",
+    "webcomponentsjs": "0.5.5"
   }
 }
