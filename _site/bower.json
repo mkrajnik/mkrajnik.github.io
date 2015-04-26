@@ -1,0 +1,19 @@
+{
+  "name": "mkrajnik.github.io",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mkrajnik/mkrajnik.github.io",
+  "authors": [
+    "mkrajnik <mkrajnik@sigma.ug.edu.pl>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nb-menu": "sup3rb0wlz/nb-menu#master"
+  }
+}
