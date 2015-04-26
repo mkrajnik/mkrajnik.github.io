@@ -10,8 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="polymer.css" rel="stylesheet">
 	<link rel="import" href="bower_components/paper-button/paper-button.html">
-	<link rel="import" href="bower_components/core-overlay/core-overlay.html">
- 
+ <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -128,14 +127,9 @@
  
   <div class="row">
     <div class="col-xs-6"> <p>
-	
-	<core-overlay>
-  <h2>Dialog</h2>
-  <input placeholder="say something..." autofocus>
-  <div>I agree with this wholeheartedly.</div>
-  <button core-overlay-toggle>OK</button>
-</core-overlay>
-	
+	<paper-dialog transition="core-transition-center">
+  <p>Some content</p>
+</paper-dialog>
 	
 	
 	
