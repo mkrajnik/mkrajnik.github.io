@@ -63,7 +63,7 @@ BasicCalendarWeek = {
   // In the U.S., this is 0 (Sunday), but in many places it's 1 (Monday).
   // If no culture is supplied, the default culture is used.
   firstDayOfWeek: function(culture) {
-    return culture ? culture.calendar.firstDay : 0;
+    return culture ? culture.calendar.firstDay : 1;
   },
 
   // Return the date of the first day of the week that contains the given date.
@@ -108,8 +108,8 @@ Polymer({
     this.days.forEach(function(day, i) {
       var newDay = dayTemplate.cloneNode();
       newDay.classList.add('day');
-      newDay.classList.toggle('firstDayOfWeek', i === 0);
-      newDay.classList.toggle('lastDayOfWeek', i === 6);
+      newDay.classList.toggle('firstDayOfWeek', i === 1);
+      newDay.classList.toggle('lastDayOfWeek', i === 0);
       shadowRoot.replaceChild(newDay, day);
     }.bind(this));
     this._refresh();
