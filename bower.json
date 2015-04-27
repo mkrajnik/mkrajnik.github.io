@@ -16,10 +16,12 @@
   "dependencies": {
     "nb-menu": "sup3rb0wlz/nb-menu#master",
     "favicon-bubble": "~0.0.3",
-    "basic-calendar-month": "basic-web-components/basic-calendar-month#master"
+    "basic-calendar-month": "basic-web-components/basic-calendar-month#master",
+    "x-2048": "felquis/x-2048#master"
   },
   "resolutions": {
-    "core-component-page": "^0.5",
-    "webcomponentsjs": "0.5.5"
+    "core-component-page": "^0.3.0",
+    "webcomponentsjs": "0.5.5",
+    "x-2048": "~0.1.0"
   }
 }
