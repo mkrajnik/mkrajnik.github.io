@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <script>if (!('registerElement' in document && 'createShadowRoot' in HTMLElement.prototype && 'import' in document.createElement('link') && 'content' in document.createElement('template'))) document.write('<script src="/webcomponentsjs/webcomponents.js"><\/script>');</script>
+
+        <link rel="import" href="../mat-demo/mat-demo.html">
+        <link rel="import" href="../mat-paper/mat-paper.html">
+        <link rel="import" href="mat-palette.html">
+
+    </head>
+
+    <!-- BODY -->
+    <body fullbleed unresolved>
+
+        <polymer-element name="mat-palette-demo" noscript>
+
+            <template>
+                <style>
+                    :host .palette {
+                        margin: 32px 16px 0 16px;
+                        width: 320px;
+                    }
+
+                    :host .palette > * {
+                        padding: 16px;
+                    }
+
+                    :host .palette > :first-child {
+                        padding: 64px 16px 16px;
+                    }
+                </style>
+                <mat-demo label="mat-palette">
+
+                    <h1>Palettes</h1>
+                    <div horizontal layout wrap around-justified>
+                        <div class="palette">
+                            <mat-paper background="red">Red</mat-paper>
+                            <mat-paper background="red-50">50</mat-paper>
+                            <mat-paper background="red-100">100</mat-paper>
+                            <mat-paper background="red-200">200</mat-paper>
+                            <mat-paper background="red-300">300</mat-paper>
+                            <mat-paper background="red-400">400</mat-paper>
+                            <mat-paper background="red-500">500</mat-paper>
+                            <mat-paper background="red-600">600</mat-paper>
+                            <mat-paper background="red-700">700</mat-paper>
+                            <mat-paper background="red-800">800</mat-paper>
+                            <mat-paper background="red-900">900</mat-paper>
+                            <mat-paper background="red-a100">a100</mat-paper>
+                            <mat-paper background="red-a200">a200</mat-paper>
+                            <mat-paper background="red-a400">a400</mat-paper>
+                            <mat-paper background="red-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="pink">Pink</mat-paper>
+                            <mat-paper background="pink-50">50</mat-paper>
+                            <mat-paper background="pink-100">100</mat-paper>
+                            <mat-paper background="pink-200">200</mat-paper>
+                            <mat-paper background="pink-300">300</mat-paper>
+                            <mat-paper background="pink-400">400</mat-paper>
+                            <mat-paper background="pink-500">500</mat-paper>
+                            <mat-paper background="pink-600">600</mat-paper>
+                            <mat-paper background="pink-700">700</mat-paper>
+                            <mat-paper background="pink-800">800</mat-paper>
+                            <mat-paper background="pink-900">900</mat-paper>
+                            <mat-paper background="pink-a100">a100</mat-paper>
+                            <mat-paper background="pink-a200">a200</mat-paper>
+                            <mat-paper background="pink-a400">a400</mat-paper>
+                            <mat-paper background="pink-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="purple">Purple</mat-paper>
+                            <mat-paper background="purple-50">50</mat-paper>
+                            <mat-paper background="purple-100">100</mat-paper>
+                            <mat-paper background="purple-200">200</mat-paper>
+                            <mat-paper background="purple-300">300</mat-paper>
+                            <mat-paper background="purple-400">400</mat-paper>
+                            <mat-paper background="purple-500">500</mat-paper>
+                            <mat-paper background="purple-600">600</mat-paper>
+                            <mat-paper background="purple-700">700</mat-paper>
+                            <mat-paper background="purple-800">800</mat-paper>
+                            <mat-paper background="purple-900">900</mat-paper>
+                            <mat-paper background="purple-a100">a100</mat-paper>
+                            <mat-paper background="purple-a200">a200</mat-paper>
+                            <mat-paper background="purple-a400">a400</mat-paper>
+                            <mat-paper background="purple-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="deep-purple">Deep Purple</mat-paper>
+                            <mat-paper background="deep-purple-50">50</mat-paper>
+                            <mat-paper background="deep-purple-100">100</mat-paper>
+                            <mat-paper background="deep-purple-200">200</mat-paper>
+                            <mat-paper background="deep-purple-300">300</mat-paper>
+                            <mat-paper background="deep-purple-400">400</mat-paper>
+                            <mat-paper background="deep-purple-500">500</mat-paper>
+                            <mat-paper background="deep-purple-600">600</mat-paper>
+                            <mat-paper background="deep-purple-700">700</mat-paper>
+                            <mat-paper background="deep-purple-800">800</mat-paper>
+                            <mat-paper background="deep-purple-900">900</mat-paper>
+                            <mat-paper background="deep-purple-a100">a100</mat-paper>
+                            <mat-paper background="deep-purple-a200">a200</mat-paper>
+                            <mat-paper background="deep-purple-a400">a400</mat-paper>
+                            <mat-paper background="deep-purple-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="indigo">Indigo</mat-paper>
+                            <mat-paper background="indigo-50">50</mat-paper>
+                            <mat-paper background="indigo-100">100</mat-paper>
+                            <mat-paper background="indigo-200">200</mat-paper>
+                            <mat-paper background="indigo-300">300</mat-paper>
+                            <mat-paper background="indigo-400">400</mat-paper>
+                            <mat-paper background="indigo-500">500</mat-paper>
+                            <mat-paper background="indigo-600">600</mat-paper>
+                            <mat-paper background="indigo-700">700</mat-paper>
+                            <mat-paper background="indigo-800">800</mat-paper>
+                            <mat-paper background="indigo-900">900</mat-paper>
+                            <mat-paper background="indigo-a100">a100</mat-paper>
+                            <mat-paper background="indigo-a200">a200</mat-paper>
+                            <mat-paper background="indigo-a400">a400</mat-paper>
+                            <mat-paper background="indigo-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="blue">Blue</mat-paper>
+                            <mat-paper background="blue-50">50</mat-paper>
+                            <mat-paper background="blue-100">100</mat-paper>
+                            <mat-paper background="blue-200">200</mat-paper>
+                            <mat-paper background="blue-300">300</mat-paper>
+                            <mat-paper background="blue-400">400</mat-paper>
+                            <mat-paper background="blue-500">500</mat-paper>
+                            <mat-paper background="blue-600">600</mat-paper>
+                            <mat-paper background="blue-700">700</mat-paper>
+                            <mat-paper background="blue-800">800</mat-paper>
+                            <mat-paper background="blue-900">900</mat-paper>
+                            <mat-paper background="blue-a100">a100</mat-paper>
+                            <mat-paper background="blue-a200">a200</mat-paper>
+                            <mat-paper background="blue-a400">a400</mat-paper>
+                            <mat-paper background="blue-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="light-blue">Light Blue</mat-paper>
+                            <mat-paper background="light-blue-50">50</mat-paper>
+                            <mat-paper background="light-blue-100">100</mat-paper>
+                            <mat-paper background="light-blue-200">200</mat-paper>
+                            <mat-paper background="light-blue-300">300</mat-paper>
+                            <mat-paper background="light-blue-400">400</mat-paper>
+                            <mat-paper background="light-blue-500">500</mat-paper>
+                            <mat-paper background="light-blue-600">600</mat-paper>
+                            <mat-paper background="light-blue-700">700</mat-paper>
+                            <mat-paper background="light-blue-800">800</mat-paper>
+                            <mat-paper background="light-blue-900">900</mat-paper>
+                            <mat-paper background="light-blue-a100">a100</mat-paper>
+                            <mat-paper background="light-blue-a200">a200</mat-paper>
+                            <mat-paper background="light-blue-a400">a400</mat-paper>
+                            <mat-paper background="light-blue-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="cyan">Cyan</mat-paper>
+                            <mat-paper background="cyan-50">50</mat-paper>
+                            <mat-paper background="cyan-100">100</mat-paper>
+                            <mat-paper background="cyan-200">200</mat-paper>
+                            <mat-paper background="cyan-300">300</mat-paper>
+                            <mat-paper background="cyan-400">400</mat-paper>
+                            <mat-paper background="cyan-500">500</mat-paper>
+                            <mat-paper background="cyan-600">600</mat-paper>
+                            <mat-paper background="cyan-700">700</mat-paper>
+                            <mat-paper background="cyan-800">800</mat-paper>
+                            <mat-paper background="cyan-900">900</mat-paper>
+                            <mat-paper background="cyan-a100">a100</mat-paper>
+                            <mat-paper background="cyan-a200">a200</mat-paper>
+                            <mat-paper background="cyan-a400">a400</mat-paper>
+                            <mat-paper background="cyan-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="teal">Teal</mat-paper>
+                            <mat-paper background="teal-50">50</mat-paper>
+                            <mat-paper background="teal-100">100</mat-paper>
+                            <mat-paper background="teal-200">200</mat-paper>
+                            <mat-paper background="teal-300">300</mat-paper>
+                            <mat-paper background="teal-400">400</mat-paper>
+                            <mat-paper background="teal-500">500</mat-paper>
+                            <mat-paper background="teal-600">600</mat-paper>
+                            <mat-paper background="teal-700">700</mat-paper>
+                            <mat-paper background="teal-800">800</mat-paper>
+                            <mat-paper background="teal-900">900</mat-paper>
+                            <mat-paper background="teal-a100">a100</mat-paper>
+                            <mat-paper background="teal-a200">a200</mat-paper>
+                            <mat-paper background="teal-a400">a400</mat-paper>
+                            <mat-paper background="teal-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="green">Green</mat-paper>
+                            <mat-paper background="green-50">50</mat-paper>
+                            <mat-paper background="green-100">100</mat-paper>
+                            <mat-paper background="green-200">200</mat-paper>
+                            <mat-paper background="green-300">300</mat-paper>
+                            <mat-paper background="green-400">400</mat-paper>
+                            <mat-paper background="green-500">500</mat-paper>
+                            <mat-paper background="green-600">600</mat-paper>
+                            <mat-paper background="green-700">700</mat-paper>
+                            <mat-paper background="green-800">800</mat-paper>
+                            <mat-paper background="green-900">900</mat-paper>
+                            <mat-paper background="green-a100">a100</mat-paper>
+                            <mat-paper background="green-a200">a200</mat-paper>
+                            <mat-paper background="green-a400">a400</mat-paper>
+                            <mat-paper background="green-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="light-green">Light Green</mat-paper>
+                            <mat-paper background="light-green-50">50</mat-paper>
+                            <mat-paper background="light-green-100">100</mat-paper>
+                            <mat-paper background="light-green-200">200</mat-paper>
+                            <mat-paper background="light-green-300">300</mat-paper>
+                            <mat-paper background="light-green-400">400</mat-paper>
+                            <mat-paper background="light-green-500">500</mat-paper>
+                            <mat-paper background="light-green-600">600</mat-paper>
+                            <mat-paper background="light-green-700">700</mat-paper>
+                            <mat-paper background="light-green-800">800</mat-paper>
+                            <mat-paper background="light-green-900">900</mat-paper>
+                            <mat-paper background="light-green-a100">a100</mat-paper>
+                            <mat-paper background="light-green-a200">a200</mat-paper>
+                            <mat-paper background="light-green-a400">a400</mat-paper>
+                            <mat-paper background="light-green-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="lime">Lime</mat-paper>
+                            <mat-paper background="lime-50">50</mat-paper>
+                            <mat-paper background="lime-100">100</mat-paper>
+                            <mat-paper background="lime-200">200</mat-paper>
+                            <mat-paper background="lime-300">300</mat-paper>
+                            <mat-paper background="lime-400">400</mat-paper>
+                            <mat-paper background="lime-500">500</mat-paper>
+                            <mat-paper background="lime-600">600</mat-paper>
+                            <mat-paper background="lime-700">700</mat-paper>
+                            <mat-paper background="lime-800">800</mat-paper>
+                            <mat-paper background="lime-900">900</mat-paper>
+                            <mat-paper background="lime-a100">a100</mat-paper>
+                            <mat-paper background="lime-a200">a200</mat-paper>
+                            <mat-paper background="lime-a400">a400</mat-paper>
+                            <mat-paper background="lime-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="yellow">Yellow</mat-paper>
+                            <mat-paper background="yellow-50">50</mat-paper>
+                            <mat-paper background="yellow-100">100</mat-paper>
+                            <mat-paper background="yellow-200">200</mat-paper>
+                            <mat-paper background="yellow-300">300</mat-paper>
+                            <mat-paper background="yellow-400">400</mat-paper>
+                            <mat-paper background="yellow-500">500</mat-paper>
+                            <mat-paper background="yellow-600">600</mat-paper>
+                            <mat-paper background="yellow-700">700</mat-paper>
+                            <mat-paper background="yellow-800">800</mat-paper>
+                            <mat-paper background="yellow-900">900</mat-paper>
+                            <mat-paper background="yellow-a100">a100</mat-paper>
+                            <mat-paper background="yellow-a200">a200</mat-paper>
+                            <mat-paper background="yellow-a400">a400</mat-paper>
+                            <mat-paper background="yellow-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="amber">Amber</mat-paper>
+                            <mat-paper background="amber-50">50</mat-paper>
+                            <mat-paper background="amber-100">100</mat-paper>
+                            <mat-paper background="amber-200">200</mat-paper>
+                            <mat-paper background="amber-300">300</mat-paper>
+                            <mat-paper background="amber-400">400</mat-paper>
+                            <mat-paper background="amber-500">500</mat-paper>
+                            <mat-paper background="amber-600">600</mat-paper>
+                            <mat-paper background="amber-700">700</mat-paper>
+                            <mat-paper background="amber-800">800</mat-paper>
+                            <mat-paper background="amber-900">900</mat-paper>
+                            <mat-paper background="amber-a100">a100</mat-paper>
+                            <mat-paper background="amber-a200">a200</mat-paper>
+                            <mat-paper background="amber-a400">a400</mat-paper>
+                            <mat-paper background="amber-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="orange">Orange</mat-paper>
+                            <mat-paper background="orange-50">50</mat-paper>
+                            <mat-paper background="orange-100">100</mat-paper>
+                            <mat-paper background="orange-200">200</mat-paper>
+                            <mat-paper background="orange-300">300</mat-paper>
+                            <mat-paper background="orange-400">400</mat-paper>
+                            <mat-paper background="orange-500">500</mat-paper>
+                            <mat-paper background="orange-600">600</mat-paper>
+                            <mat-paper background="orange-700">700</mat-paper>
+                            <mat-paper background="orange-800">800</mat-paper>
+                            <mat-paper background="orange-900">900</mat-paper>
+                            <mat-paper background="orange-a100">a100</mat-paper>
+                            <mat-paper background="orange-a200">a200</mat-paper>
+                            <mat-paper background="orange-a400">a400</mat-paper>
+                            <mat-paper background="orange-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="deep-orange">Deep Orange</mat-paper>
+                            <mat-paper background="deep-orange-50">50</mat-paper>
+                            <mat-paper background="deep-orange-100">100</mat-paper>
+                            <mat-paper background="deep-orange-200">200</mat-paper>
+                            <mat-paper background="deep-orange-300">300</mat-paper>
+                            <mat-paper background="deep-orange-400">400</mat-paper>
+                            <mat-paper background="deep-orange-500">500</mat-paper>
+                            <mat-paper background="deep-orange-600">600</mat-paper>
+                            <mat-paper background="deep-orange-700">700</mat-paper>
+                            <mat-paper background="deep-orange-800">800</mat-paper>
+                            <mat-paper background="deep-orange-900">900</mat-paper>
+                            <mat-paper background="deep-orange-a100">a100</mat-paper>
+                            <mat-paper background="deep-orange-a200">a200</mat-paper>
+                            <mat-paper background="deep-orange-a400">a400</mat-paper>
+                            <mat-paper background="deep-orange-a700">a700</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="brown">Brown</mat-paper>
+                            <mat-paper background="brown-50">50</mat-paper>
+                            <mat-paper background="brown-100">100</mat-paper>
+                            <mat-paper background="brown-200">200</mat-paper>
+                            <mat-paper background="brown-300">300</mat-paper>
+                            <mat-paper background="brown-400">400</mat-paper>
+                            <mat-paper background="brown-500">500</mat-paper>
+                            <mat-paper background="brown-600">600</mat-paper>
+                            <mat-paper background="brown-700">700</mat-paper>
+                            <mat-paper background="brown-800">800</mat-paper>
+                            <mat-paper background="brown-900">900</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="grey">Grey</mat-paper>
+                            <mat-paper background="grey-50">50</mat-paper>
+                            <mat-paper background="grey-100">100</mat-paper>
+                            <mat-paper background="grey-200">200</mat-paper>
+                            <mat-paper background="grey-300">300</mat-paper>
+                            <mat-paper background="grey-400">400</mat-paper>
+                            <mat-paper background="grey-500">500</mat-paper>
+                            <mat-paper background="grey-600">600</mat-paper>
+                            <mat-paper background="grey-700">700</mat-paper>
+                            <mat-paper background="grey-800">800</mat-paper>
+                            <mat-paper background="grey-900">900</mat-paper>
+                        </div>
+                        <div class="palette">
+                            <mat-paper background="blue-grey">Blue Grey</mat-paper>
+                            <mat-paper background="blue-grey-50">50</mat-paper>
+                            <mat-paper background="blue-grey-100">100</mat-paper>
+                            <mat-paper background="blue-grey-200">200</mat-paper>
+                            <mat-paper background="blue-grey-300">300</mat-paper>
+                            <mat-paper background="blue-grey-400">400</mat-paper>
+                            <mat-paper background="blue-grey-500">500</mat-paper>
+                            <mat-paper background="blue-grey-600">600</mat-paper>
+                            <mat-paper background="blue-grey-700">700</mat-paper>
+                            <mat-paper background="blue-grey-800">800</mat-paper>
+                            <mat-paper background="blue-grey-900">900</mat-paper>
+                        </div>
+                    </div>
+
+                </mat-demo>
+            </template>
+
+        </polymer-element>
+
+        <mat-palette-demo></mat-palette-demo>
+
+    </body>
+
+</html>

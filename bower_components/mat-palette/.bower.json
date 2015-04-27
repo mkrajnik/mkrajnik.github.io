@@ -1,0 +1,42 @@
+{
+  "name": "mat-palette",
+  "license": "BSD-3-Clause",
+  "description": "This element is used to manage the meterial palettes.",
+  "homepage": "http://www.expandjs.com/elements/mat-palette",
+  "authors": [
+    "Giuliano Rullo <g.rullo@expandjs.com>",
+    "Maurizio Stefàno <m.stefano@expandjs.com>",
+    "Robert Manolea <r.manolea@expandjs.com>"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "main": [
+    "mat-palette.html"
+  ],
+  "ignore": [
+    "**/.*",
+    "bin",
+    "index.js",
+    "lib",
+    "node_modules",
+    "package.json"
+  ],
+  "dependencies": {
+    "expandjs": "ExpandJS/expandjs",
+    "polymer": "Polymer/polymer#^0.5"
+  },
+  "devDependencies": {
+    "mat-demo": "ExpandJS/mat-demo",
+    "mat-paper": "ExpandJS/mat-paper"
+  },
+  "_release": "de17f2f154",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "de17f2f1543541a965098ee6c37e3fbfdf806f37"
+  },
+  "_source": "git://github.com/ExpandJS/mat-palette.git",
+  "_target": "*",
+  "_originalSource": "ExpandJS/mat-palette"
+}

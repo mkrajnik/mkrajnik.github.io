@@ -1,0 +1,44 @@
+{
+  "name": "mat-paper",
+  "license": "BSD-3-Clause",
+  "description": "This element is used to display a material paper.",
+  "homepage": "http://www.expandjs.com/elements/mat-paper",
+  "authors": [
+    "Giuliano Rullo <g.rullo@expandjs.com>",
+    "Maurizio Stefàno <m.stefano@expandjs.com>",
+    "Robert Manolea <r.manolea@expandjs.com>"
+  ],
+  "keywords": [
+    "web-components"
+  ],
+  "main": [
+    "mat-paper.html"
+  ],
+  "ignore": [
+    "**/.*",
+    "bin",
+    "index.js",
+    "lib",
+    "node_modules",
+    "package.json"
+  ],
+  "dependencies": {
+    "expandjs": "ExpandJS/expandjs",
+    "mat-palette": "ExpandJS/mat-palette",
+    "xp-master-state": "ExpandJS/xp-master-state",
+    "font-roboto": "Polymer/font-roboto",
+    "polymer": "Polymer/polymer#^0.5"
+  },
+  "devDependencies": {
+    "mat-demo": "ExpandJS/mat-demo"
+  },
+  "_release": "274ce3c2d0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "274ce3c2d01cdcfab58a4d1252d3ad1793466876"
+  },
+  "_source": "git://github.com/ExpandJS/mat-paper.git",
+  "_target": "*",
+  "_originalSource": "ExpandJS/mat-paper"
+}

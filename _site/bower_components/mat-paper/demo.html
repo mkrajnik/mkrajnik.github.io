@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+        <script>if (!('registerElement' in document && 'createShadowRoot' in HTMLElement.prototype && 'import' in document.createElement('link') && 'content' in document.createElement('template'))) document.write('<script src="/webcomponentsjs/webcomponents.js"><\/script>');</script>
+
+        <link rel="import" href="../mat-demo/mat-demo.html">
+        <link rel="import" href="mat-paper.html">
+
+    </head>
+
+    <!-- BODY -->
+    <body fullbleed unresolved>
+
+        <polymer-element name="mat-paper-demo" noscript>
+
+            <template>
+                <style>
+                    :host .paper {
+                        height: 100px;
+                        margin: 32px;
+                        width: 100px;
+                    }
+
+                    :host .paper h3 {
+                        margin: 0;
+                    }
+                </style>
+                <mat-demo label="mat-paper">
+
+                    <h1>Default</h1>
+                    <div horizontal layout around-justified>
+                        <mat-paper class="paper" z="0" horizontal layout center-center><h3>Z = 0</h3></mat-paper>
+                        <mat-paper class="paper" z="1" horizontal layout center-center><h3>Z = 1</h3></mat-paper>
+                        <mat-paper class="paper" z="2" horizontal layout center-center><h3>Z = 2</h3></mat-paper>
+                        <mat-paper class="paper" z="3" horizontal layout center-center><h3>Z = 3</h3></mat-paper>
+                        <mat-paper class="paper" z="4" horizontal layout center-center><h3>Z = 4</h3></mat-paper>
+                        <mat-paper class="paper" z="5" horizontal layout center-center><h3>Z = 5</h3></mat-paper>
+                    </div>
+
+                </mat-demo>
+            </template>
+
+        </polymer-element>
+
+        <mat-paper-demo></mat-paper-demo>
+
+    </body>
+
+</html>
