@@ -2,3 +2,8 @@ paper-button.przycisk_wiecej{
 	background: #ffff99;
     color: black;
 }
+.clock{
+ position: absolute;
+  margin-top: 5px ;
+  margin-left: 1200px;
+}
