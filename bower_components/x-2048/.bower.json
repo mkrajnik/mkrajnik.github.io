@@ -1,6 +1,5 @@
 {
   "name": "x-2048",
-  "version": "0.1.0",
   "authors": [
     "Felquis Gimenes <oi@felquis.com>"
   ],
@@ -21,14 +20,16 @@
     "test",
     "tests"
   ],
-  "_release": "0.1.0",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.3.4"
+  },
+  "_release": "bc50dfe84b",
   "_resolution": {
-    "type": "version",
-    "tag": "0.1.0",
-    "commit": "f3bb52a7f099d2c6f26bb0ac1d34bba1448a6b13"
+    "type": "branch",
+    "branch": "master",
+    "commit": "bc50dfe84b3e2a106ac364713e1c92149fd213b3"
   },
   "_source": "git://github.com/felquis/x-2048.git",
-  "_target": "~0.1.0",
-  "_originalSource": "x-2048",
-  "_direct": true
+  "_target": "master",
+  "_originalSource": "felquis/x-2048"
 }
