@@ -1,0 +1,33 @@
+{
+  "name": "clock-face",
+  "main": "clock-face.js",
+  "homepage": "https://github.com/tjvantoll/clock-face",
+  "authors": [
+    "TJ VanToll <tj.vantoll@gmail.com>"
+  ],
+  "description": "A web component for building clocks",
+  "license": "MIT",
+  "dependencies": {
+    "document-register-element": "WebReflection/document-register-element"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "fac6eee3b8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fac6eee3b8f180caa32c3550fd61c518293a539d"
+  },
+  "_source": "git://github.com/tjvantoll/clock-face.git",
+  "_target": "master",
+  "_originalSource": "tjvantoll/clock-face",
+  "_direct": true
+}
