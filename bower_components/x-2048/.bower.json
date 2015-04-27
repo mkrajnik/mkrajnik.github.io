@@ -1,0 +1,34 @@
+{
+  "name": "x-2048",
+  "version": "0.1.0",
+  "authors": [
+    "Felquis Gimenes <oi@felquis.com>"
+  ],
+  "description": "Web Component wrapper for 2048 game",
+  "main": "x-2048.html",
+  "keywords": [
+    "2048",
+    "web-components",
+    "polymer",
+    "game"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/felquis/x-2048",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "f3bb52a7f099d2c6f26bb0ac1d34bba1448a6b13"
+  },
+  "_source": "git://github.com/felquis/x-2048.git",
+  "_target": "~0.1.0",
+  "_originalSource": "x-2048",
+  "_direct": true
+}
