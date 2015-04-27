@@ -3,7 +3,7 @@ clock-face {
 	width: 100px;
 	height: 100px;
 	position: relative;
-	border: 6px solid black;
+	border: 6px solid red;
 	border-radius: 50%;
 }
 .clock-face-container::after {
