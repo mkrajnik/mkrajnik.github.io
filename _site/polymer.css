@@ -4,6 +4,8 @@ paper-button.przycisk_wiecej{
 }
 .clock{
  position: absolute;
-  margin-top: 5px ;
+  margin-top: 80px ;
   margin-left: 1200px;
+  width: 50%;
+  height:50%;
 }
