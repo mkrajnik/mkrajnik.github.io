@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="pl_PL">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projekt technik2i internetowe</title>
- 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
- <script src="bower_components/platform/platform.js"></script>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>A Web Component wrapper for 2048 game!</title>
 
-  <link rel="import" href="bower_components/x-2048/x-2048.html">
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+  <!-- Importing Web Component's Polyfill -->
+  <script src="bower_components/platform/platform.js"></script>
+
+  <link rel="import" href="x-2048.html">
 </head>
 <body>
   <div id="fb-root"></div>
@@ -63,20 +69,6 @@
       ga('create','UA-49459747-2');ga('send','pageview');
     </script>
   </div>
-
-   <!-- Footer -->
-<hr>
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Martyna Krajnik 2015</p>
-			
-<a href="https://github.com/mkrajnik/Techniki-Internetowe" title="link do gita"><img src="https://github.com/mkrajnik/mkrajnik.github.io/blob/master/Bez%20nazwy-1.jpg?raw=true"> </a>
-                </div>
-                <!-- /.col-lg-12 -->
-            </div>
-            <!-- /.row -->
-        </footer>
-
 </body>
 </html>
+
